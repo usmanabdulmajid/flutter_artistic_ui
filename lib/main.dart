@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_artistic1/screen1.dart';
+import 'package:flutter_artistic1/firstscreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Screen1(),
+      home: FirstScreen(),
     );
   }
 }

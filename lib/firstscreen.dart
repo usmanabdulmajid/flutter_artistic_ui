@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_artistic1/screen2.dart';
+import 'package:flutter_artistic1/secondscreen.dart';
 
-class Screen1 extends StatelessWidget {
+class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -147,7 +147,7 @@ class Screen1 extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (_) {
-                            return Screen2();
+                            return SecondScreen();
                           }),
                         );
                       },
