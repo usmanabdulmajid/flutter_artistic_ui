@@ -44,10 +44,11 @@ class FirstScreen extends StatelessWidget {
 
           Container(
             decoration: BoxDecoration(
-                border: Border.all(
-              color: Colors.white,
-              width: 25.0,
-            )),
+              border: Border.all(
+                color: Colors.white,
+                width: 25.0,
+              ),
+            ),
           ),
 
           //Image
